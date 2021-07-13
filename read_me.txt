@@ -1,0 +1,2 @@
+The code is modularized so that every time an iteration of the model is called, the required operations from the import of the dataset is in the same cell. Given the tiny size of the dataset, this does not make the computation particularly inefficient, as no model trains in more than a couple minutes. Therefore, the notebook can be launched directly at opening and the progression of the model design is clearly shown.
+In the first cell are condensed all the inputs required.
